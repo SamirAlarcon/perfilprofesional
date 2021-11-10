@@ -68,6 +68,58 @@ header img{
 .contenedor-foto1{
     padding-top: 110px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     width: 100%;
+    z-index: 1;
+}
+
+.texto-foto1{
+    width: 60%;
+    padding: 24px 0;
+    min-height: 100px;
+}
+
+.texto-foto1 span{
+    font-size: 1.6rem;
+    color: #c18f59;
+}
+
+.texto-foto1 h2{
+    color: azure;
+    font-size: 3.5rem;
+    margin: 5px 0;
+}
+
+.name-botton{
+    padding-left: 80px;
+}
+
+.habilidades{
+    padding-left: 80px;
+}
+
+.texto-foto1 p{
+    padding: 10px 0;
+    color: #777;
+    font-size: 1.2rem;
+}
+
+.texto-foto1 .boton{
+    border: azure solid 1px;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton a{
+    text-decoration: none;
+    color: #c18f59;
+    font-size: 1.2rem;
+}
+
+.boton a::after{
+    content: ' >';
 }
