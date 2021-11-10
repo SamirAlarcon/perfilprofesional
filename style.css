@@ -123,3 +123,114 @@ header img{
 .boton a::after{
     content: ' >';
 }
+
+.foto2{
+    margin: 100px 0;
+    width: 100%;
+    background-image: url(https://plantillashtmlgratis.com/wp-content/themes/helium-child/vista_previa/page255/author/images/about-me-bckg.jpg);
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-position: center;
+
+}
+
+.foto2::after{
+    content: '';
+    background-color: black;
+    opacity: 0.9;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.tarjeta{
+    margin-top: 100px;
+    height: 350px;
+    width: 280px;
+    z-index: 1;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tarjeta img{
+    width: 260px;
+    margin:10px;
+}
+
+.tarjeta .nombre{
+    display: flex;
+}
+
+.tarjeta figure{
+    height: 190px;
+}
+
+.nombre span{
+    font-size: 7rem;
+    color: #c18f59;
+}
+
+.nombre h2{
+    font-size: 2.8rem;
+    color: rgb(61, 61, 61);
+}
+
+.tarjeta p{
+    margin:0 50px;
+    font-size: 1.5rem;
+    color: rgb(71, 71, 71);
+}
+
+.about-me{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+    justify-content: center;
+    margin: 40px 30px;
+}
+
+.about-me h3{
+    color: rgb(255, 255, 255);
+    font-size: 2.7rem;
+    width: 100%;
+    text-align: center;
+}
+
+.about-me img{
+    width: 100%;
+}
+
+.about-me span{
+    color: white;
+    font-size: 5rem;
+}
+
+.about-me p{
+    color: #c18f59;
+    font-size: 1.4rem;
+    padding:16px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.about-me h4{
+    color: #c18f59;
+    font-size: 2.5rem;
+    width: 100%;
+    text-align: center;
+}
+
+.about-me h1{
+    margin: 10px 0;
+}
+
+.texto-blanco{
+    color: white;
+}
