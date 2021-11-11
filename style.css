@@ -133,7 +133,7 @@ header img{
     flex-wrap: wrap;
     justify-content: center;
     background-position: center;
-
+    background-size: cover;
 }
 
 .foto2::after{
@@ -233,4 +233,49 @@ header img{
 
 .texto-blanco{
     color: white;
+}
+
+.galeria-fotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galeria-fotos h2{
+    font-size: 3rem;
+    color: #222;
+}
+
+.galeria-fotos .titulo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.galeria-fotos .titulo img{
+    margin: 20px 0;
+}
+
+.libro h4{
+    margin: 16px 0;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.libro h3{
+    font-size: 2rem;
+    text-align: center;
+    color: #c18f59;
+}
+
+.estrellas{
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.estrellas span{
+    color: #ffd200;
+    font-size: 2.5rem;
 }
