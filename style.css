@@ -244,6 +244,7 @@ header img{
 .galeria-fotos h2{
     font-size: 3rem;
     color: #222;
+    text-align: center;
 }
 
 .galeria-fotos .titulo{
@@ -251,6 +252,7 @@ header img{
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
 }
 
 .galeria-fotos .titulo img{

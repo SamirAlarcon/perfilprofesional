@@ -1,0 +1,70 @@
+.detalles{
+    height: 150px;
+}
+
+.detalles div{
+    width: 25%;
+}
+
+.foto2{
+    width:75%;
+    margin-left: 25%;
+    height: 600px;
+}
+
+.foto2 .tarjeta{
+    position: absolute;
+    left: -200px;
+    height: 450px;
+    width: 350px;
+}
+
+.tarjeta figure{
+    height: 250px;
+}
+
+.about-me p{
+    font-size: 1.8rem;
+    line-height: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
+    max-width: 600px;
+}
+
+.contenedor-foto1{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.contenedor-foto1 h2{
+    font-size: 7rem;
+}
+
+.contenedor-foto1 span{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.enviame-correo .content-datos{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.enviame-correo form{
+    width: 70%;
+    padding-right: 180px;
+}
+
+.content-datos p{
+    text-align: center;
+}
+
+.despedida-content p{
+    max-width: 700px;
+}
+
+.mb-tarjeta{
+    width:500px
+}

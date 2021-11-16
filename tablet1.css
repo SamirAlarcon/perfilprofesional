@@ -1,0 +1,56 @@
+.contenedor-foto1 figure{
+    width: 50%;
+    padding: 0 32px;
+}
+
+.contenedor-foto1 .texto-foto1{
+    width: 50%;
+    padding-left: 16px;
+}
+
+.contenedor-foto1 p{
+    font-size: 1.6rem;
+}
+
+.detalles{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.detalles div{
+    width: 50%;
+}
+
+.myBlog{
+    margin: 0 20px;
+}
+
+.despedida-content p{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.enviame-correo form{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.galeria-fotos{
+    display: flex;
+    justify-content: center;
+}
+
+.galeria-fotos .productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galeria-fotos .productos .libro{
+    width: 50%;
+}
+
+.galeria-fotos figure{
+    display: flex;
+    justify-content: center;
+}
